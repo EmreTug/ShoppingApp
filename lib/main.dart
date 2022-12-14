@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoppingapp/feature/home/homeview/view/home_view.dart';
 
 import 'feature/authenticate/splash/splash_view.dart';
 

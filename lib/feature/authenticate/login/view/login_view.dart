@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shoppingapp/core/extensions/color_extension.dart';
+import 'package:shoppingapp/feature/home/homeview/view/home_view.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -160,7 +161,8 @@ class LoginView extends StatelessWidget {
                     ),
                     GestureDetector(
                      onTap: () {
-                       
+                        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => const HomeView()));
                      } ,
                       child: Align(
                         child: Padding(
